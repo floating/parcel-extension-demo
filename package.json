@@ -1,0 +1,14 @@
+{
+  "name": "parcel-demo-extension",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src",
+  "scripts": {
+    "build": "parcel build ./src/test.js --no-source-maps --target browser && node ./src/inline.js",
+    "start": "parcel ./app/index.html --open"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.9.7",
+    "stylus": "^0.54.5"
+  }
+}

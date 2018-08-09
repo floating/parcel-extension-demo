@@ -1,0 +1,19 @@
+{
+  "name": "Parcel Demo Extension",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Parcel Demo Extension"
+  },
+  "content_scripts" : [{
+    "matches": ["file://*/*", "http://*/*", "https://*/*"],
+    "js": ["inject.js"],
+    "run_at": "document_start"
+  }],
+  "permissions": [
+    "activeTab",
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
