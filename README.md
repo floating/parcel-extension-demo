@@ -18,4 +18,4 @@ Once the extension is added start the app.
 
 When the app opens look for "Parcel demo extension: I am injected!" in the console to make sure the extension is working. If it is then try to update the background color via HMR.
 
-After that go back to the extensions menu and toggle off the extension, then reload the page and try updating via HMR again.
+After that go back to the extensions menu and disable or remove the extension, then reload the page and try updating via HMR again.
